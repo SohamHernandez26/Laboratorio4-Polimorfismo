@@ -1,3 +1,4 @@
+
 public class Contenido implements Publicable {
     protected int id;
     protected String titulo;

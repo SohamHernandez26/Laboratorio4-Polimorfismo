@@ -1,4 +1,7 @@
+package main.java.Models.Controllers;
 import java.util.*;
+
+import main.java.Models.Models.Usuario;
 
 
 public class UsuarioController {
