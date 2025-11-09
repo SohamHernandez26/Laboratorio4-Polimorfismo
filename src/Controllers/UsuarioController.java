@@ -1,8 +1,7 @@
-package main.java.Models.Controllers;
+package Controllers;
+
 import java.util.*;
-
-import main.java.Models.Models.Usuario;
-
+import Models.Usuario;
 
 public class UsuarioController {
     private List<Usuario> usuarios = new ArrayList<>();

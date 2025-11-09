@@ -1,3 +1,5 @@
+import Models.Categoria;
+
 
 public class Contenido implements Publicable {
     protected int id;

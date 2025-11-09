@@ -1,3 +1,5 @@
+package Models;
+
 public class Articulo extends Contenido {
     private String texto;
 

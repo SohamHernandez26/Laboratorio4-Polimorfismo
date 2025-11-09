@@ -1,7 +1,7 @@
-package main.java.Models.Vew;
+package Vew;
 
 import java.util.Scanner;
-import main.java.Models.Models.Usuario;
+import Models.Usuario;
 
 
 public class VistaCMS {

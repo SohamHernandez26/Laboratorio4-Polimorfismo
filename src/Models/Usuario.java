@@ -1,4 +1,5 @@
-package main.java.Models.Models;
+package Models;
+
 public class Usuario {
     private String nombre;
     private String tipo;

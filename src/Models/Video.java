@@ -1,3 +1,5 @@
+package Models;
+
 public class Video extends Contenido {
     private String url;
     private double duracion;

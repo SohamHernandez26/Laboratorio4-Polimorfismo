@@ -1,5 +1,7 @@
-import java.util.*;
+package Controllers;
 
+import java.util.*;
+import Models.*;
 
 public class ContenidoController {
     private RepositorioContenido repo;
@@ -38,8 +40,8 @@ public class ContenidoController {
     public boolean editarContenido(int id, Map<String, Object> datos) {
         Contenido c = repo.obtenerContenidoPorId(id);
         if (c == null) return false;
-        if (datos.containsKey("titulo")) c.titulo = (String) datos.get("titulo");
-        if (datos.containsKey("autor")) c.autor = (String) datos.get("autor");
+    if (datos.containsKey("titulo")) c.setTitulo((String) datos.get("titulo"));
+    if (datos.containsKey("autor")) c.setAutor((String) datos.get("autor"));
         return true;
     }
 

@@ -1,3 +1,5 @@
+package Models;
+
 public class Imagen extends Contenido {
     private String ruta;
     private int ancho;
